@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Footcap - Find your footwear</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- preload banner -->
+    <link rel="preload" href="./assets/images/hero-banner.png" as="image" />
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-MDTCQKC4");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WNN1S4THX9"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-WNN1S4THX9");
+    </script>
+  </head>
+
+  <body id="top">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MDTCQKC4"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- #HEADER -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <div class="overlay" data-overlay></div>
+
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="160"
+            height="50"
+            alt="Footcap logo"
+          />
+        </a>
+
+        <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <nav class="navbar" data-navbar>
+          <button
+            class="nav-close-btn"
+            data-nav-close-btn
+            aria-label="Close Menu"
+          >
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logo.svg"
+              width="190"
+              height="50"
+              alt="Footcap logo"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link">Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">About</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="men.html" class="navbar-link">Products</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Shop</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Blog</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="nav-action-list">
+            <li>
+              <button class="nav-action-btn">
+                <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+                <span class="nav-action-text">Search</span>
+              </button>
+            </li>
+
+            <li>
+              <a href="#" class="nav-action-btn">
+                <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                <span class="nav-action-text">Login / Register</span>
+              </a>
+            </li>
+
+            <li>
+              <button class="nav-action-btn">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+                <span class="nav-action-text">Wishlist</span>
+
+                <data class="nav-action-badge" value="5" aria-hidden="true"
+                  >5</data
+                >
+              </button>
+            </li>
+
+            <li>
+              <button class="nav-action-btn">
+                <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+
+                <data class="nav-action-text" value="318.00"
+                  >Basket: <strong>$318.00</strong></data
+                >
+
+                <data class="nav-action-badge" value="4" aria-hidden="true"
+                  >4</data
+                >
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- PRODUCT DETAILS -->
+        <div class="product-details">
+          <div class="product-image">
+            <!-- Replace this image URL with your product image -->
+            <img src="./assets/images/product-1.jpg" alt="Product Image" />
+          </div>
+          <div class="product-info">
+            <h1 class="product-title">Running Sneaker Shoes</h1>
+            <p class="product-description">
+              Lightweight & Breathable : Exclusive design and durable materials
+              every step feels light and breezy. Breathable, free-moving fabrics
+              which adjust according to your foot and creates an astoundingly
+              easy-going experience.
+            </p>
+            <p class="product-price">$180.85</p>
+            <div class="product-options">
+              <label for="shoe-size">Size:</label>
+              <select id="shoe-size">
+                <option value="large">3</option>
+                <option value="large">4</option>
+                <option value="small">5</option>
+                <option value="medium">6</option>
+                <option value="large">7</option>
+                <option value="large">8</option>
+                <option value="large">9</option>
+                <option value="large">10</option>
+              </select>
+              <label for="quantity">Quantity:</label>
+              <input type="number" id="quantity" value="1" />
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 90vh; /* Change height to min-height for better responsiveness */
+        padding-top: 50px; /* Adjust top padding */
+        padding-bottom: 2px; /* Adjust bottom padding */
+      }
+
+      .product-details {
+        display: flex;
+        max-width: 1000px;
+        background-color: #f8f8f8;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      .product-image {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .product-image img {
+        max-width: 100%;
+        max-height: 100%;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .product-info {
+        flex: 1;
+        padding: 20px;
+      }
+
+      .product-title {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #ff0000;
+      }
+
+      .product-description {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 20px;
+      }
+
+      .product-price {
+        font-size: 20px;
+        font-weight: bold;
+        color: #007bff;
+        margin-bottom: 20px;
+      }
+
+      .product-options {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+      }
+
+      .product-options label {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+
+      .product-options select,
+      .product-options input[type="number"] {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+
+      .add-to-cart-btn {
+        background-color: #007bff;
+        color: #fff;
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      .add-to-cart-btn:hover {
+        background-color: #0056b3;
+      }
+
+      .product-image:hover img {
+        transform: scale(1.1);
+      }
+
+      @media (max-width: 768px) {
+        .product-details {
+          flex-direction: column;
+        }
+
+        .product-info {
+          padding: 20px 0;
+        }
+      }
+    </style>
+    <!-- #FOOTER -->
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="footer-top section">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.svg"
+                width="160"
+                height="50"
+                alt="Footcap logo"
+              />
+            </a>
+
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-link-box">
+            <ul class="footer-list">
+              <li>
+                <p class="footer-list-title">Contact Us</p>
+              </li>
+
+              <li>
+                <address class="footer-link">
+                  <ion-icon name="location"></ion-icon>
+
+                  <span class="footer-link-text"> Mangalore Karnataka </span>
+                </address>
+              </li>
+
+              <li>
+                <a href="tel:+557343673257" class="footer-link">
+                  <ion-icon name="call"></ion-icon>
+
+                  <span class="footer-link-text">+9663616590</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="mailto:footcap@help.com" class="footer-link">
+                  <ion-icon name="mail"></ion-icon>
+
+                  <span class="footer-link-text">footcap@help.com</span>
+                </a>
+              </li>
+            </ul>
+
+            <ul class="footer-list">
+              <li>
+                <p class="footer-list-title">My Account</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                  <span class="footer-link-text">My Account</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                  <span class="footer-link-text">View Cart</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                  <span class="footer-link-text">Wishlist</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                  <span class="footer-link-text">Compare</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                  <span class="footer-link-text">New Products</span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="footer-list">
+              <p class="footer-list-title">Opening Time</p>
+
+              <table class="footer-table">
+                <tbody>
+                  <tr class="table-row">
+                    <th class="table-head" scope="row">Mon - Tue:</th>
+
+                    <td class="table-data">8AM - 10PM</td>
+                  </tr>
+
+                  <tr class="table-row">
+                    <th class="table-head" scope="row">Wed:</th>
+
+                    <td class="table-data">8AM - 7PM</td>
+                  </tr>
+
+                  <tr class="table-row">
+                    <th class="table-head" scope="row">Fri:</th>
+
+                    <td class="table-data">7AM - 12PM</td>
+                  </tr>
+
+                  <tr class="table-row">
+                    <th class="table-head" scope="row">Sat:</th>
+
+                    <td class="table-data">9AM - 8PM</td>
+                  </tr>
+
+                  <tr class="table-row">
+                    <th class="table-head" scope="row">Sun:</th>
+
+                    <td class="table-data">Closed</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="footer-list">
+              <p class="footer-list-title">Newsletter</p>
+
+              <p class="newsletter-text">
+                Authoritatively morph 24/7 potentialities with error-free
+                partnerships.
+              </p>
+
+              <form action="" class="newsletter-form">
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="Email Address"
+                  class="newsletter-input"
+                />
+
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2022 <a href="#" class="copyright-link">Mahesh</a>. All
+            Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- #GO TO TOP -->
+
+    <a href="#top" class="go-top-btn" data-go-top>
+      <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
+
+    <!-- custom js link -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- ionicon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
